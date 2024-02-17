@@ -1,12 +1,13 @@
 // Importing the modules
 const express = require('express');
-const db = require('./config/mongoose')
-
+const db = require('./config/mongoose');
+const bodyParser=require('body-parser');
 const Port = 3000;
 
 // Creating an Express application instance
 const app = express();
 
+app.use(bodyParser.urlencoded({extended:true}));
 
 
 // Listening to the specified port for incoming connections
