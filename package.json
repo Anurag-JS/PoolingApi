@@ -1,0 +1,11 @@
+{
+  "name": "poolingapi",
+  "version": "1.0.0",
+  "description": "Node.js API for polling system: Create/view questions, add options, vote, with optional authentication and clear code structure, including setup instructions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anurag",
+  "license": "ISC"
+}
