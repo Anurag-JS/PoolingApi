@@ -1,6 +1,6 @@
 // Importing the modules
 const express = require('express');
-
+const db = require('./config/mongoose')
 
 const Port = 3000;
 
