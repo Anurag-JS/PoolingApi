@@ -7,6 +7,8 @@ const Port = 3000;
 // Creating an Express application instance
 const app = express();
 
+
+// Middleware to parse urlencoded bodies
 app.use(bodyParser.urlencoded({extended:true}));
 
 
